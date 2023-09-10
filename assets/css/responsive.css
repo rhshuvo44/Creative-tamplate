@@ -139,16 +139,23 @@
     padding-left: 0px;
   }
 }
-
-@media (max-width: 350px) {
+@media only screen and (max-width: 600px) {
   .banner-section .banner .banner-content h1 {
     font-size: 50px;
     line-height: 1.5;
   }
   .banner-section .banner .banner-content p {
-    /* padding: 0 50px; */
     font-size: 14px;
-line-height: 1.5;
-    /* padding-bottom: 20px; */
+    line-height: 1.5;
   }
 }
+/* @media (max-width: 350px) {
+  .banner-section .banner .banner-content h1 {
+    font-size: 50px;
+    line-height: 1.5;
+  }
+  .banner-section .banner .banner-content p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+} */
