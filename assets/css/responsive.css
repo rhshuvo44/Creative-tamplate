@@ -38,6 +38,7 @@
   }
   nav .nav-items li a {
     font-size: 20px;
+    color: white;
   }
   nav form {
     position: absolute;
@@ -112,3 +113,42 @@
 }
 
 /* navbar css end  */
+
+/* banner start  */
+@media (max-width: 1140px) {
+  .banner-section .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-section .banner .banner-content {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  /* .banner-section .banner .banner-content h1 {
+    font-size: 100px;
+   
+  } */
+  .banner-section .banner .banner-content p {
+    padding: 0 50px;
+
+    padding-bottom: 20px;
+  }
+
+  .banner-section .banner .banner-img {
+    width: 100%;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 350px) {
+  .banner-section .banner .banner-content h1 {
+    font-size: 50px;
+    line-height: 1.5;
+  }
+  .banner-section .banner .banner-content p {
+    /* padding: 0 50px; */
+    font-size: 14px;
+line-height: 1.5;
+    /* padding-bottom: 20px; */
+  }
+}
