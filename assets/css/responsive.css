@@ -124,10 +124,7 @@
     text-align: center;
     margin-top: 20px;
   }
-  /* .banner-section .banner .banner-content h1 {
-    font-size: 100px;
-   
-  } */
+
   .banner-section .banner .banner-content p {
     padding: 0 50px;
 
@@ -159,3 +156,24 @@
     line-height: 1.5;
   }
 } */
+
+/* service start  */
+@media (max-width: 1140px) {
+  .service-content {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .service-content:last-child .service-card {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 980px) {
+  #service .heading {
+    font-size: 40px;
+  }
+  .service-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 600px) {
+}
