@@ -358,3 +358,85 @@ nav .cancel-icon {
 .portfolio-gallery .itemBox.hide {
   display: none;
 }
+
+/* about  */
+.about-section {
+  padding: 100px 0px;
+}
+#about {
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 50px; */
+}
+
+.about-content h5 {
+  color: var(--secondary);
+  font-size: 20px;
+  font-family: Exo;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0.015em;
+}
+.about-content h3 {
+  color: #fff;
+  font-family: Exo;
+  font-size: 60px;
+  padding: 10px 0px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0em;
+}
+.about-content p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.012em;
+  font-family: Inter;
+  margin-bottom: 20px;
+}
+.about-img {
+  width: 561px;
+  height: 433px;
+  position: relative;
+}
+.about-img img {
+  width: 100%;
+}
+.about-year {
+  position: absolute;
+  bottom: -50px;
+  left: -100px;
+  width: 166px;
+  height: 110px;
+  padding-top: 5px;
+  color: #fff;
+  text-align: center;
+  background-color: var(--secondary);
+}
+.about-year::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  top: -29px;
+  height: 30px;
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  background-color: var(--secondary);
+  right: 0px;
+}
+.about-year span {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: 0em;
+}
+.about-year p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.015em;
+}
