@@ -74,7 +74,7 @@ a {
   border: 0;
   text-align: center;
   color: white;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 1.5;
   font-family: var(--f-family);
   cursor: pointer;
@@ -105,7 +105,7 @@ a {
   font-family: var(--f-family);
   font-size: 60px;
   font-weight: 700;
-  line-height: 80px;
+  line-height: 1.5;
   letter-spacing: 0em;
   color: var(--primary);
 }
@@ -113,9 +113,9 @@ a {
   font-family: var(--f-family);
   color: var(--b-30);
   font-family: Inter;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 27px;
+  line-height: 1.5;
   letter-spacing: 0.012em;
 }
 /* navber css start  */
@@ -137,7 +137,7 @@ nav .logo {
   color: var(--primary);
   font-size: 30px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.5;
   font-family: var(--f-family);
   letter-spacing: -1px;
 }
@@ -226,14 +226,14 @@ nav .cancel-icon {
   font-family: var(--f-family);
   font-size: 88px;
   font-weight: 700;
-  line-height: 120px;
+  line-height: 1.5;
   letter-spacing: 0.01em;
 }
 .banner-section .banner .banner-content p {
   font-family: var(--f-family);
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 38px;
+  line-height: 1.5;
   padding-right: 20px;
   letter-spacing: 0.015em;
   padding-bottom: 20px;
@@ -299,15 +299,15 @@ nav .cancel-icon {
   font-size: 30px;
   font-weight: 700;
   color: var(--primary);
-  line-height: 48px;
+  line-height: 1.5;
   letter-spacing: 0em;
   transition: all 0.5s;
 }
 .service-card-body p {
   font-family: var(--f-family);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 1.5;
   letter-spacing: 0em;
   color: var(--b-30);
   transition: all 0.5s;
@@ -376,7 +376,7 @@ nav .cancel-icon {
   font-size: 20px;
   font-family: Exo;
   font-weight: 500;
-  line-height: 25px;
+  line-height: 1.5;
   letter-spacing: 0.015em;
 }
 .about-content h3 {
@@ -385,14 +385,14 @@ nav .cancel-icon {
   font-size: 60px;
   padding: 10px 0px;
   font-weight: 700;
-  line-height: 80px;
+  line-height: 1.5;
   letter-spacing: 0em;
 }
 .about-content p {
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 27px;
+  line-height: 1.5;
   letter-spacing: 0.012em;
   font-family: Inter;
   margin-bottom: 20px;
@@ -411,7 +411,6 @@ nav .cancel-icon {
   left: -100px;
   width: 166px;
   height: 110px;
-  padding-top: 5px;
   color: #fff;
   text-align: center;
   background-color: var(--secondary);
@@ -430,13 +429,54 @@ nav .cancel-icon {
   font-family: Inter;
   font-size: 40px;
   font-weight: 800;
-  line-height: 40px;
+  line-height: 1.5;
   letter-spacing: 0em;
 }
 .about-year p {
   font-family: Inter;
   font-size: 16px;
   font-weight: 500;
-  line-height: 18px;
+  line-height: 1.5;
   letter-spacing: 0.015em;
+}
+/* client  */
+#client {
+  padding: 100px 0;
+}
+.client-swiper {
+  padding: 100px 0;
+}
+.client-card {
+  box-shadow: 0px 6px 40px 0px #00000026;
+  border-radius: 30px;
+  padding: 30px 20px;
+}
+.card-header {
+  align-content: center;
+  gap: 20px;
+  align-items: center;
+}
+/* .card-header .img-box {
+  width: 100px;
+  height: 100px;
+} */
+.card-header .img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.card-body {
+  padding: 20px 0px;
+}
+.card-body p {
+  font-family: Exo;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.012em;
+  color: var(--b-30);
+}
+.star-icon {
+  color: var(--secondary);
 }
