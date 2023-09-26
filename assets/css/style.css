@@ -478,3 +478,31 @@ nav .cancel-icon {
 .star-icon {
   color: var(--secondary);
 }
+
+/* footer  */
+footer {
+  background: #232323;
+  padding: 20px 0px;
+}
+.footer-bottom {
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom p {
+  font-family: Exo;
+  color: var(--b-60);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0em;
+}
+.footer-bottom p a {
+  color: var(--secondary);
+  font: bold;
+}
+.footer-bottom .footer-img {
+  width: 268px;
+}
+.footer-bottom .footer-img img {
+  width: 100%;
+}
