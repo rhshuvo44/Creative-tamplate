@@ -364,11 +364,9 @@ nav .cancel-icon {
   padding: 100px 0px;
 }
 #about {
-  flex-wrap: wrap;
   align-content: center;
   justify-content: space-between;
   align-items: center;
-  /* gap: 50px; */
 }
 
 .about-content h5 {

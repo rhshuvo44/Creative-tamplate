@@ -92,30 +92,7 @@
   nav .cancel-icon.show {
     display: block;
   }
-}
-@media (max-width: 980px) {
-  nav .menu-icon,
-  nav .search-icon,
-  nav .cancel-icon {
-    margin: 0 20px;
-  }
-  nav form {
-    right: 30px;
-  }
-}
-@media (max-width: 350px) {
-  nav .menu-icon,
-  nav .search-icon,
-  nav .cancel-icon {
-    margin: 0 10px;
-    font-size: 16px;
-  }
-}
-
-/* navbar css end  */
-
-/* banner start  */
-@media (max-width: 1140px) {
+  /* banner  */
   .banner-section .banner {
     flex-direction: column-reverse;
   }
@@ -135,8 +112,60 @@
     width: 100%;
     padding-left: 0px;
   }
+  /* service  */
+  .service-content {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .service-content:last-child .service-card {
+    margin-top: 50px;
+  }
+  /* about  */
+  #about {
+    flex-direction: column;
+  }
+  .about-content {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .about-img {
+    width: 85%;
+  }
+}
+@media (max-width: 980px) {
+  nav .menu-icon,
+  nav .search-icon,
+  nav .cancel-icon {
+    margin: 0 20px;
+  }
+  nav form {
+    right: 30px;
+  }
+  /* section heading  */
+  .heading {
+    font-size: 40px;
+  }
+  /* services  */
+  .service-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* about  */
+  .about-img {
+    width: 100%;
+  }
+  .about-year {
+    position: absolute;
+    bottom: -50px;
+    left: 0px;
+    width: 166px;
+    height: 110px;
+    color: #fff;
+    text-align: center;
+    background-color: var(--secondary);
+  }
 }
 @media only screen and (max-width: 600px) {
+  /* banner  */
   .banner-section .banner .banner-content h1 {
     font-size: 45px;
     line-height: 1.5;
@@ -145,41 +174,21 @@
     font-size: 14px;
     line-height: 1.5;
   }
-}
-/* @media (max-width: 350px) {
-  .banner-section .banner .banner-content h1 {
-    font-size: 50px;
-    line-height: 1.5;
-  }
-  .banner-section .banner .banner-content p {
-    font-size: 14px;
-    line-height: 1.5;
-  }
-} */
+  /* section heading  */
 
-/* service start  */
-@media (max-width: 1140px) {
-  .service-content {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-  }
-  .service-content:last-child .service-card {
-    margin-top: 50px;
-  }
-}
-@media (max-width: 980px) {
-  .heading {
-    font-size: 40px;
-  }
-  .service-content {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media only screen and (max-width: 600px) {
   .heading {
     font-size: 36px;
   }
+  /* services  */
   .service-content {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 350px) {
+  nav .menu-icon,
+  nav .search-icon,
+  nav .cancel-icon {
+    margin: 0 10px;
+    font-size: 16px;
   }
 }
